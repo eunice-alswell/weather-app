@@ -1,0 +1,54 @@
+#container{
+    height: 635px;
+    width: 350px;
+    position: relative;
+    margin: auto;
+    padding: auto;
+}
+
+.card{
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
+    height: inherit;
+    width: inherit;
+}
+
+.stm{
+    text-align: center;
+
+}
+
+.btn{
+    width: 120px;
+    border-radius: 30px;
+    border: 0;
+    padding: 9px;
+    font-size: medium;
+    background-color: rgb(77, 154, 241);
+    color: black;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+a{
+    color: white;
+}
+
+.form-control{
+    margin: 6px 2px;
+    padding: 5px 5px;
+    display: inline-block;
+}
+
+.checkbox{
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+}
+
+.checkbox label{
+    padding-left: 5px;
+    margin-left: 5px;
+}

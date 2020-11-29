@@ -8,8 +8,7 @@ const home = React.lazy(() => import('./Home'))
 const Pages = {
     Login,
     Signup,
-    home,
-    
+    home    
 }
 
 export default Pages;

@@ -1,6 +1,6 @@
 import React from 'react'
 import Pages from './pages'
-import {Route, Switch} from 'react-router-dom'
+import {Redirect, Route, Switch} from 'react-router-dom'
 
 const Router = () => {
     return(
@@ -9,6 +9,7 @@ const Router = () => {
                 <Route path='/login' component={Pages.Login}/>
                 <Route path='/signup' component={Pages.Signup}/>
                 <Route path='/home' component={Pages.Home}/>
+                <Redirect from = '*' to ='/login'/>
             </Switch>
 
 

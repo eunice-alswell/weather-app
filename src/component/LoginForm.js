@@ -29,7 +29,7 @@ function LoginForm() {
                 </div>
 
                 <div className = 'stm'>
-                  <p>Don't have an account? <a href = '/signup'> SignUp</a></p>
+                  <p>Don't have an account? <a id = 'link' href = '/signup'> SignUp</a></p>
                 </div>
               </Card>
 

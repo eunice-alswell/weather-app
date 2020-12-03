@@ -68,13 +68,42 @@ function Forecast() {
                 
                     ):(
                         <div>
-                            <div className='location-box'>
-                                <div className='location'>{`${weather.location.name},${weather.location.country}`}</div>
-                                <div className='date'>{dateBuilder(new Date())} </div>
-                            </div>
-                            <div className='weather-box'>
-                                <div className='temp'>
-                                    {weather.current.temperature}°C
+
+                            <div className= 'search-box'>
+                                <input
+                                type = 'text'
+                                className= 'search-bar'
+                                placeholder ='country'
+                                value={country}
+                                onChange = {(e) => setCountry(e.target.value)}
+                                />
+    
+                                <input
+                                type = 'text'
+                                placeholder ='city'
+                                className= 'search-bar'
+                                value={city}
+                                onChange = {e => setCity(e.target.value)}
+                                />
+
+                                <button className = 'btn' onClick = {search}>Search</button>
+                            </div>      
+
+                            <div>
+                                <div className='location-box'>
+                                    <div className='location'>{`${weather.location.name},${weather.location.country}`}</div>
+                                    <div className='date'>{`${dateBuilder(new Date())}, ${weather.current.observation_time}`} </div>
+                                    <div className = 'description' id='des'>{weather.current.weather_descriptions}</div>
+                                </div>
+                                <div className='weather-box'>
+                                    <div className='temp'>
+                                        {weather.current.temperature}°C
+                                    </div>
+                                    <div>
+                                       <div className='description'>{`Humidty: ${weather.current.humidity}% `}</div> 
+                                       <div className='description'>{`Precipitation :${weather.current.precip}%`}</div> 
+                                       <div className='description'>{`Wind speed : ${weather.current.wind_speed}Km/h`}</div> 
+                                    </div>
                                 </div>
                             </div>
                         </div>

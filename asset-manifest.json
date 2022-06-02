@@ -1,0 +1,43 @@
+{
+  "files": {
+    "static/css/0.1a02f21c.chunk.css": "/weather-app/static/css/0.1a02f21c.chunk.css",
+    "static/js/0.a8992d46.chunk.js": "/weather-app/static/js/0.a8992d46.chunk.js",
+    "static/js/0.a8992d46.chunk.js.map": "/weather-app/static/js/0.a8992d46.chunk.js.map",
+    "main.css": "/weather-app/static/css/main.305829f3.chunk.css",
+    "main.js": "/weather-app/static/js/main.7c4d9709.chunk.js",
+    "main.js.map": "/weather-app/static/js/main.7c4d9709.chunk.js.map",
+    "runtime-main.js": "/weather-app/static/js/runtime-main.64805a44.js",
+    "runtime-main.js.map": "/weather-app/static/js/runtime-main.64805a44.js.map",
+    "static/js/3.41c2c478.chunk.js": "/weather-app/static/js/3.41c2c478.chunk.js",
+    "static/js/3.41c2c478.chunk.js.map": "/weather-app/static/js/3.41c2c478.chunk.js.map",
+    "static/js/4.eeb15cf2.chunk.js": "/weather-app/static/js/4.eeb15cf2.chunk.js",
+    "static/js/4.eeb15cf2.chunk.js.map": "/weather-app/static/js/4.eeb15cf2.chunk.js.map",
+    "static/css/5.8f3fc421.chunk.css": "/weather-app/static/css/5.8f3fc421.chunk.css",
+    "static/js/5.ce86007e.chunk.js": "/weather-app/static/js/5.ce86007e.chunk.js",
+    "static/js/5.ce86007e.chunk.js.map": "/weather-app/static/js/5.ce86007e.chunk.js.map",
+    "static/css/6.94b53d5c.chunk.css": "/weather-app/static/css/6.94b53d5c.chunk.css",
+    "static/js/6.5f68b36c.chunk.js": "/weather-app/static/js/6.5f68b36c.chunk.js",
+    "static/js/6.5f68b36c.chunk.js.map": "/weather-app/static/js/6.5f68b36c.chunk.js.map",
+    "static/css/7.5e322cd8.chunk.css": "/weather-app/static/css/7.5e322cd8.chunk.css",
+    "static/js/7.67dc4ecb.chunk.js": "/weather-app/static/js/7.67dc4ecb.chunk.js",
+    "static/js/7.67dc4ecb.chunk.js.map": "/weather-app/static/js/7.67dc4ecb.chunk.js.map",
+    "static/js/8.a502bef1.chunk.js": "/weather-app/static/js/8.a502bef1.chunk.js",
+    "static/js/8.a502bef1.chunk.js.map": "/weather-app/static/js/8.a502bef1.chunk.js.map",
+    "index.html": "/weather-app/index.html",
+    "static/css/0.1a02f21c.chunk.css.map": "/weather-app/static/css/0.1a02f21c.chunk.css.map",
+    "static/css/5.8f3fc421.chunk.css.map": "/weather-app/static/css/5.8f3fc421.chunk.css.map",
+    "static/css/6.94b53d5c.chunk.css.map": "/weather-app/static/css/6.94b53d5c.chunk.css.map",
+    "static/css/7.5e322cd8.chunk.css.map": "/weather-app/static/css/7.5e322cd8.chunk.css.map",
+    "static/css/main.305829f3.chunk.css.map": "/weather-app/static/css/main.305829f3.chunk.css.map",
+    "static/js/0.a8992d46.chunk.js.LICENSE.txt": "/weather-app/static/js/0.a8992d46.chunk.js.LICENSE.txt",
+    "static/js/4.eeb15cf2.chunk.js.LICENSE.txt": "/weather-app/static/js/4.eeb15cf2.chunk.js.LICENSE.txt",
+    "static/media/signupform.css": "/weather-app/static/media/autumn-oak-leaf-fantastic-beautiful-spray-bubbles-blue-background-magic-autumn-blue-background-yellow-oak-leaf-158238643.2b1df52c.jpg",
+    "static/media/home.css": "/weather-app/static/media/mountain.78bde238.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64805a44.js",
+    "static/js/4.eeb15cf2.chunk.js",
+    "static/css/main.305829f3.chunk.css",
+    "static/js/main.7c4d9709.chunk.js"
+  ]
+}

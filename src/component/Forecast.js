@@ -44,6 +44,7 @@ function Forecast() {
     return (
         <div className = 'home'>
             <main>
+                <h2 Style="color:white;text-align:center"> Check the Weather of Any City</h2>
                 {
                     !weather?(
                         <div className= 'search-box'>

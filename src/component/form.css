@@ -9,11 +9,13 @@ body{
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
     font-family: 'Heebo', sans-serif;
     height: 370px;
     width: 330px;
     position: relative;
-    margin: 120px auto;
+    margin: 110px auto;
     padding: auto;
 
 }

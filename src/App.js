@@ -1,6 +1,7 @@
 import React from 'react';
-import {HashRouter} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
 import Router from './Router';
+// import {Redirect, Route, Switch} from 'react-router-dom'
 
 
 
@@ -8,9 +9,9 @@ function App() {
   return (
     
     <div>
-      <HashRouter>
+      <BrowserRouter>
         <Router/>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   )
 }

@@ -14,7 +14,7 @@ function Forecast() {
     const [weather, setWeather] = useState(null)
 
     const search = () =>{
-         
+
         if(country && city){
             axios.get(`${BASE}?access_key=${KEY}&query=${country},${city}`)
             .then((res) => {
@@ -44,6 +44,7 @@ function Forecast() {
     return (
         <div className = 'home'>
             <main>
+                {/* style="color:white;text-align:center" */}
                 <h2 Style="color:white;text-align:center"> Check the Weather of Any City</h2>
                 {
                     !weather?(
@@ -101,9 +102,9 @@ function Forecast() {
                                         {weather.current.temperature}°C
                                     </div>
                                     <div>
-                                       <div className='description'>{`Humidty: ${weather.current.humidity}% `}</div> 
-                                       <div className='description'>{`Precipitation :${weather.current.precip}%`}</div> 
-                                       <div className='description'>{`Wind speed : ${weather.current.wind_speed}Km/h`}</div> 
+                                        <div className='description'>{`Humidty: ${weather.current.humidity}% `}</div> 
+                                        <div className='description'>{`Precipitation :${weather.current.precip}%`}</div> 
+                                        <div className='description'>{`Wind speed : ${weather.current.wind_speed}Km/h`}</div> 
                                     </div>
                                 </div>
                             </div>

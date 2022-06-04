@@ -11,16 +11,16 @@ function LoginForm() {
       <div>
           <div>
             <Navbar collapseOnSelect expand="lg" bg="blue" variant="white">
-              <Navbar.Brand >Dream Weather App</Navbar.Brand>
+              <Navbar.Brand Style="color:white">Dream Weather App</Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link href="/home">Home</Nav.Link>
+                <Nav.Link href="/home" Style="color:white">Home</Nav.Link>
                 
               </Nav>
               <Nav>
-                <Nav.Link href="/">Login</Nav.Link>
-                <Nav.Link eventKey={2} href="/signup">
+                <Nav.Link href="/login" Style="color:white">Login</Nav.Link>
+                <Nav.Link eventKey={2} href="/signup" Style="color:white">
                   SignUp
                 </Nav.Link>
               </Nav>
@@ -52,7 +52,8 @@ function LoginForm() {
                   <p>Don't have an account? <a id = 'link' href = '/signup'> SignUp</a></p>
                 </div>
               </Card>
-              <p Style="color:white">Don't want to interract this page? <a href = './home' Style="color:yellow"> CLICK TO PASS THIS PAGE</a></p>
+              {/* Style="color:yellow" Style="color:white" */}
+              <p Style="color:white">Don't want to interract this page? <a href = '/home' Style="color:yellow"> CLICK TO PASS THIS PAGE</a></p>
             </Container>
             
       </div>
